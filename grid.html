@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Grid Practice</title>
+</head>
+<body style="padding: 100px">
+  <div style="  display: grid;
+  grid-template-columns: 100px 100px;">
+    <div style="background-color: aqua;">div1</div>
+    <div style="background-color: blue;">div2</p></div>
+</div>
+
+<div style="  display: grid;
+grid-template-columns: 100px 100px 200px;
+margin-top: 30px;">
+  <div style="background-color: aqua;">100px</div>
+  <div style="background-color: blue;">100px <p>text</p></div>
+  <div style="background-color: aqua;">200px</div>
+  <div style="background-color: blue;">100px <p></p></div>
+</div>
+
+<div style="  display: grid;
+grid-template-columns: 100px 1fr;
+margin-top: 30px;">
+  <div style="background-color: aqua;">100px</div>
+  <div style="background-color: blue;">1fr </div>
+</div>
+
+<div style="  display: grid;
+grid-template-columns: 100px 1fr 2fr;
+margin-top: 30px;">
+  <div style="background-color: aqua;">100px</div>
+  <div style="background-color: blue;">1fr</div>
+  <div style="background-color: aqua;">2fr</div>
+</div>
+
+<div style="  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+margin-top: 30px;
+column-gap: 20px;
+row-gap: 40px;">
+  <div style="background-color: aqua;
+  height: 200px">1fr</div>
+  <div style="background-color: blue;
+  height: 200px;">1fr</div>
+  <div style="background-color: aqua;
+  height: 200px;">1fr</div>
+  <div style="background-color: blue;
+  height: 200px;">1fr</div>
+  <div style="background-color: aqua;
+  height: 200px">1fr</div>
+  <div style="background-color: blue;
+  height: 200px;">1fr</div>
+    
+</div>
+</body>
+</html>
